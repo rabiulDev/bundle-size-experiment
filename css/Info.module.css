@@ -1,0 +1,12 @@
+.profile {
+  @apply mt-6;
+}
+.profile__info__img {
+  @apply min-h-fit !important;
+}
+.profile__info__card {
+  @apply flex gap-1;
+}
+.profile__info__title {
+  @apply mt-0 sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl text-2xl !important;
+}/*# sourceMappingURL=Info.module.css.map */

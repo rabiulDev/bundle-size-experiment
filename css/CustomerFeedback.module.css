@@ -1,0 +1,14 @@
+.customerFeedback__title {
+  @apply md:my-5 mt-10 mb-5 !important;
+}
+
+.feedbackComment {
+  @apply mt-10 max-h-[335px] h-full overflow-y-scroll flex items-center justify-center;
+}
+.feedbackComment::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+.feedbackComment::-webkit-scrollbar {
+  width: 3px !important;
+}/*# sourceMappingURL=CustomerFeedback.module.css.map */

@@ -1,0 +1,12 @@
+.cityListCard {
+  @apply w-full cursor-pointer;
+}
+.cityListCard__main {
+  @apply rounded-sm relative h-full w-full;
+}
+.cityListCard__main .cityImage {
+  @apply h-[14.375rem] overflow-hidden;
+}
+.cityListCard__main .cityImage img {
+  @apply w-full h-full object-cover;
+}/*# sourceMappingURL=CityCardList.module.css.map */

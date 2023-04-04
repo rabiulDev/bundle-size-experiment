@@ -1,0 +1,21 @@
+.slider {
+  @apply flex items-center;
+}
+.slider__thumbs {
+  @apply lg:max-h-[360px] md:max-h-[300px] w-full;
+}
+.slider__thumbs span {
+  @apply h-full !important;
+}
+.slider__thumbs span img {
+  @apply h-full !important;
+}
+.slider__cover {
+  @apply lg:max-h-[360px] md:max-h-[300px] sm:max-h-[320px] h-full overflow-hidden;
+}
+.slider__cover span {
+  @apply h-fit !important;
+}
+.slider__cover span img {
+  @apply lg:max-h-[360px] md:max-h-[300px] sm:max-h-[300px] w-screen h-fit object-cover !important;
+}/*# sourceMappingURL=FoodSlier.module.css.map */

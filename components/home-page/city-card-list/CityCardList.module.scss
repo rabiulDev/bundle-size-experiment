@@ -1,0 +1,14 @@
+.cityListCard {
+      @apply w-full cursor-pointer;
+
+      &__main {
+            @apply rounded-sm relative h-full w-full;
+
+            .cityImage {
+                  @apply h-[14.375rem] overflow-hidden w-full;
+                  img {
+                        @apply w-full h-full object-cover;
+                  }
+            }
+      }
+}

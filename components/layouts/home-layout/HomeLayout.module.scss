@@ -1,0 +1,20 @@
+.layout {
+      @apply px-4 md:px-6 pb-16 max-w-[90rem] w-full m-auto overflow-x-hidden;
+}
+
+.loaderWrapper {
+      background: #121212;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+}
+
+.header{
+      @apply px-5 flex bg-[#141414] justify-between #{!important};
+}

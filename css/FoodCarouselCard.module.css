@@ -1,0 +1,16 @@
+.singleCarousel__img {
+  @apply h-28 w-24 !important;
+}
+.singleCarousel__img span {
+  @apply h-full !important;
+}
+.singleCarousel__img span img {
+  @apply object-cover;
+}
+
+.lineClamp {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}/*# sourceMappingURL=FoodCarouselCard.module.css.map */

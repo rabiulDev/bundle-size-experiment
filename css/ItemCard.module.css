@@ -1,0 +1,12 @@
+.itemCard {
+  @apply min-h-[420px] relative h-full;
+}
+.itemCard__icon {
+  @apply flex gap-2 items-center my-3;
+}
+.itemCard__title {
+  @apply overflow-hidden whitespace-pre-wrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}/*# sourceMappingURL=ItemCard.module.css.map */

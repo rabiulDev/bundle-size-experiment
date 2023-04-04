@@ -1,0 +1,7 @@
+.foodPrice {
+  @apply flex items-center gap-3 mb-6;
+}
+
+.foodTime {
+  @apply flex gap-6;
+}/*# sourceMappingURL=Foodinfo.module.css.map */

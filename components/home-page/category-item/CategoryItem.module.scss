@@ -1,0 +1,11 @@
+.item {
+  @apply flex flex-col items-center justify-center gap-5;
+
+  svg{
+    @apply text-4xl;
+  }
+
+  span{
+    @apply text-xl;
+  }
+}

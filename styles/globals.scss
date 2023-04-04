@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+//Error page css
+
+.error-page {
+    .next-error-h1 {
+        color: #ffffff;
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    h2 {
+        color: #ffffff;
+    }
+}
+
+.slider_active {
+    .swiper-slide {
+        opacity: 0.5;
+    }
+    .swiper-slide-thumb-active {
+        opacity: 1;
+    }
+}
+.custom_border {
+    border-bottom: 1px solid #313131 !important;
+}
+
+.ant-dropdown-menu {
+    padding: 10px 14px !important;
+}
+
+.ant-menu-horizontal {
+    border-bottom: 0px !important;
+}
+.ant-picker-time-panel-column::-webkit-scrollbar {
+    width: 3px !important;
+}
+.ant-picker-time-panel-column::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+
+.custom_scroller::-webkit-scrollbar {
+    width: 3px !important;
+}
+.custom_scroller::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+.custom_form_skeleton {
+    .ant-skeleton-paragraph {
+        li {
+            width: 100% !important;
+            height: 30px !important;
+        }
+    }
+}
+.tox-toolbar__primary {
+    background-color: #141414 !important;
+}
+.tox-editor-header {
+    background-color: #141414 !important;
+}
+.card_text__shadow {
+    text-shadow: 1px 1px 0 rgba(0,0,0,.35);
+}
+
+#nprogress .bar {
+    height: 4px !important;
+    background: #08c !important;
+}

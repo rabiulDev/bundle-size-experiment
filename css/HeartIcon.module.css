@@ -1,0 +1,3 @@
+.heartIconContainer__heartIcon {
+  @apply text-xl absolute top-2 right-2 z-10 cursor-pointer;
+}/*# sourceMappingURL=HeartIcon.module.css.map */

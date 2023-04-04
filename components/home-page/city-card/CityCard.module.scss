@@ -1,0 +1,17 @@
+.cityCard {
+  @apply h-[16.25rem] w-full cursor-pointer;
+
+  &__main {
+    @apply rounded-xl relative h-full w-full overflow-hidden;
+
+    &__topRow {
+      @apply absolute w-full left-0 top-3 px-3 z-30;
+    }
+    &__content {
+      @apply flex flex-col h-full;
+    }
+    &__bottomRow {
+      @apply absolute w-full left-0 bottom-3 px-3 z-30;
+    }
+  }
+}

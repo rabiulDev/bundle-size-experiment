@@ -1,0 +1,16 @@
+.QuickItemCard {
+  @apply mb-4 last:mb-2 cursor-pointer bg-[#1F1F1F] hover:bg-[#141414];
+  &__img {
+    @apply rounded object-cover;
+  }
+  &__items {
+    @apply flex gap-2 items-center;
+    .line_ellipse {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+  }
+}

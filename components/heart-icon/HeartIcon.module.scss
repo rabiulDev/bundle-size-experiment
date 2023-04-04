@@ -1,0 +1,5 @@
+.heartIconContainer{
+  &__heartIcon {
+    @apply text-xl absolute top-3 right-4 z-10 cursor-pointer;
+  }
+}

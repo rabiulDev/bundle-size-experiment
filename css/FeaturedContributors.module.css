@@ -1,0 +1,9 @@
+.contributors {
+  @apply overflow-hidden max-h-[572px] rounded-md w-full h-full;
+}
+.contributors__image {
+  @apply overflow-hidden h-16 w-14;
+}
+.contributors__image img {
+  @apply object-cover;
+}/*# sourceMappingURL=FeaturedContributors.module.css.map */

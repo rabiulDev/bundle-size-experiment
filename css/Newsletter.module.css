@@ -1,0 +1,12 @@
+.newsletter {
+  @apply h-[18.75rem] w-full overflow-hidden relative mt-32;
+}
+.newsletter__card {
+  @apply absolute z-20 md:right-[3rem] lg:right-[8rem] max-w-[34rem] h-full flex flex-col items-center justify-center rounded-none border-none shadow-none;
+}
+.newsletter__overlay {
+  @apply bg-[#00000069] h-full w-full absolute top-0 z-10;
+}
+.newsletter img {
+  @apply object-cover;
+}/*# sourceMappingURL=Newsletter.module.css.map */

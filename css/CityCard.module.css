@@ -1,0 +1,15 @@
+.cityCard {
+  @apply h-[16.25rem] w-full cursor-pointer;
+}
+.cityCard__main {
+  @apply rounded-sm relative h-full w-full;
+}
+.cityCard__main__topRow {
+  @apply absolute w-full left-0 top-3 px-3;
+}
+.cityCard__main__content {
+  @apply flex flex-col h-full;
+}
+.cityCard__main__bottomRow {
+  @apply absolute w-full left-0 bottom-3 px-3;
+}/*# sourceMappingURL=CityCard.module.css.map */

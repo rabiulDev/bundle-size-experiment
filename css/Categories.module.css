@@ -1,0 +1,9 @@
+.category {
+  @apply mt-6 md:mt-10 lg:mt-20;
+}
+.category__card {
+  @apply py-6 rounded-sm mt-3 md:mt-8;
+}
+.category__card__items {
+  @apply w-full gap-10 justify-start md:gap-0 md:justify-between;
+}/*# sourceMappingURL=Categories.module.css.map */

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.error-page .next-error-h1 {
+  color: #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.error-page h2 {
+  color: #ffffff;
+}
+
+.slider_active .swiper-slide {
+  opacity: 0.5;
+}
+.slider_active .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.custom_border {
+  border-bottom: 1px solid #313131 !important;
+}
+
+.ant-dropdown-menu {
+  padding: 10px 14px !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: 0px !important;
+}
+
+.ant-picker-time-panel-column::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.ant-picker-time-panel-column::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}/*# sourceMappingURL=globals.css.map */

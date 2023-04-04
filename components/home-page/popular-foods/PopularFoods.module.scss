@@ -1,0 +1,7 @@
+.popular {
+      @apply mt-16 md:mt-20 lg:mt-32;
+
+      &__carousel {
+            @apply mt-8;
+      }
+}

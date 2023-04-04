@@ -1,0 +1,11 @@
+.publish {
+      @apply overflow-hidden rounded-md;
+
+      &__image {
+            @apply max-w-full md:h-48 lg:h-28 overflow-hidden;
+
+            img {
+                  @apply object-cover;
+            }
+      }
+}

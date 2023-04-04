@@ -1,0 +1,14 @@
+.account {
+      @apply overflow-hidden h-[16.25rem] rounded-md w-full relative;
+
+      &__image {
+            @apply max-h-full h-full absolute top-0 left-0 z-0;
+
+            &__overlay {
+                  @apply bg-[#000000] opacity-70 h-full w-full absolute top-0 z-10;
+            }
+            img {
+                  @apply max-h-full h-full;
+            }
+      }
+}

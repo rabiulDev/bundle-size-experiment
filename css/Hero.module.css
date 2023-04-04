@@ -1,0 +1,12 @@
+.hero {
+  @apply w-full max-w-[56rem] mx-auto py-10 md:py-24 lg:py-32;
+}
+.hero__inner {
+  @apply flex flex-col items-center w-full;
+}
+.hero__inner__achievement {
+  @apply mt-7 w-full gap-3 md:gap-0;
+}
+.hero__search {
+  @apply w-full pt-8 md:pt-12 gap-3 md:gap-0;
+}/*# sourceMappingURL=Hero.module.css.map */

@@ -1,0 +1,9 @@
+.item {
+  @apply flex flex-col items-center justify-center gap-5;
+}
+.item svg {
+  @apply text-4xl;
+}
+.item span {
+  @apply text-xl;
+}/*# sourceMappingURL=CategoryItem.module.css.map */

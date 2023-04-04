@@ -1,0 +1,22 @@
+.singleCarousel {
+      @apply cursor-pointer;
+      &__img {
+            @apply h-28 w-24 #{!important};
+
+            span {
+                  @apply h-full #{!important};
+
+                  img {
+                        @apply object-cover;
+                  }
+            }
+      }
+}
+
+
+.lineClamp {
+      width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+}

@@ -1,0 +1,9 @@
+.profileInfo {
+  @apply w-full max-w-6xl mx-auto py-10 md:py-24;
+}
+.profileInfo__image {
+  @apply overflow-hidden h-28 w-28;
+}
+.profileInfo__image img {
+  @apply object-cover;
+}/*# sourceMappingURL=ProfileInfo.module.css.map */

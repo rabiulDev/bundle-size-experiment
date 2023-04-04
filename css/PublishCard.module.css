@@ -1,0 +1,9 @@
+.publish {
+  @apply overflow-hidden rounded-md;
+}
+.publish__image {
+  @apply max-w-full md:h-48 lg:h-28 overflow-hidden;
+}
+.publish__image img {
+  @apply object-cover;
+}/*# sourceMappingURL=PublishCard.module.css.map */

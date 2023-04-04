@@ -1,0 +1,29 @@
+.foodCard {
+  @apply w-full h-full cursor-pointer;
+
+  &__main {
+    @apply rounded-sm h-full w-full;
+
+    .foodImage {
+      @apply min-h-[240px] rounded h-full overflow-hidden relative;
+
+      &__icon {
+        @apply text-xl absolute z-10 top-2 right-2;
+      }
+
+      img {
+        @apply w-full h-full object-cover;
+      }
+    }
+  }
+}
+
+.lineClamp {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.lineClamp br {
+  display: none;
+}

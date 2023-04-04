@@ -1,0 +1,11 @@
+.contributors {
+      @apply overflow-hidden max-h-[572px] rounded-md w-full h-full;
+
+      &__image {
+            @apply overflow-hidden h-[38px] w-[38px];
+
+            img {
+                  @apply object-cover;
+            }
+      }
+}
